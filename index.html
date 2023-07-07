@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20f0c0c306.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="box">
+            <nav>
+                <!-- <img src="images/logo.jpg" class="logo" alt=""> -->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="https://drive.google.com/file/d/1pUDm1-MrG0C0YCRMyW-BBH-OlT1973_O/view?usp=sharing">CV/Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="header-text">
+                <p> <span>W</span>elcome !</p>
+                <h1>I am Kishlay<br>Student at IITG</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="box">
+            <div class="row1">
+                <div class="about-col-1">
+                    <img src="./images/about1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am currently in my 3rd year of Btech in Mathematics and Computing from IIT Guwahati,
+                         with a Minor in Data Science and Artificial Intelligence. 
+                        My interests include Mobile and Web Applications development, I am also gaining experience in data science and machine learing and would think of research in this field in the near future. 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> App Techonologies</span><br>Flutter, Firebase, Android Studio*
+                            </li>
+                            <li><span> Web Technologies</span><br>HTML, CSS, Bootstrap, Django*, NodeJS*
+                            </li>
+                            <li><span> Programming </span><br>C, C++, Python, JavaScript, Dart</li>
+                            <li><span> Database Management </span><br>MySQL, MongoDB*, Firebase*</li>
+                            <li><span> Libraries/Tools </span><br>Numpy, Pandas, Matplotlib, Seaborn, Tableau, B-Soup, Selenium</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>Experience by Self and Club projects</li>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>IIT Guwahati - Btech MnC (CPI-8.33), Minor-DSAI (CPI-7)</li>
+                            </li>
+                            <li><span>2019-2021</span><br>MBPS Kota - 96.6% AISSCE</li>
+                            <li><span>Till 2019</span><br>DPS Bhilai - 98% AISSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="projects">
+        <div class="box">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <h2 class="display-4 font-weight-bold"><span>M</span>y Projects</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fa fa-anchor" style="font-size:40px"></i>
+                        <h3>Track Expense App</h3>
+                        <p>An app to ease daily expense by tracking monthly expenses and find where you have spent the most through a variety of statistical graphs.</p>
+                        <a href="https://github.com/Kishlay-KS/TrackExpense">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fa fa-bar-chart" style="font-size:40px"></i>
+                        <h3>Social Media App</h3>
+                        <p>A Flutter based app to connect with friends and share content with them, you can follow/unfollow them and like and comment on their posts.</p>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="fa fa-diamond" style="font-size:40px"></i>
+                        <h3>BlogShots</h3>
+                        <p>Developed a blogging website where users can post their blogs in a collection with others. Also they have a To-Do-List init which they can customize accoding to them.</p>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="box">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <h2 class="display-4 font-weight-bold"><span>C</span>ontact Me</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-box">
+                        <i class="fa-brands fa-instagram" style="color: #ffffff; font-size: 40px;"></i>
+                        <p><a href="https://www.instagram.com/kishlay_ks/"><span>Connect</span></a> with me on Instagram</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-box">
+                        <i class="fa-brands fa-linkedin" style="color: #ffffff; font-size: 40px;"></i>
+                        
+                        <p><a href="https://www.linkedin.com/in/kishlay-soni-448640222/"><span>Connect </span></a>with me on Linked In</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-box">
+                        <i class="fa-brands fa-github" style="color: #ffffff; font-size: 40px;"></i>
+                        
+                        <p><a href="https://github.com/Kishlay-KS"><span>Follow</span></a> me on github</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+         var tablinks=document.getElementsByClassName("tab-links");
+         var tabcontents=document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname)
+         {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+    </script>
+</body>
+
+</html>
